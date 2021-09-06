@@ -1,0 +1,52 @@
+﻿a:link {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+
+a:hover {
+    font-size: 16px;
+    color: green;
+}
+
+body {
+    background-image: url("Resimler/arkaplan.jpg");
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: solid #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.tb5 {
+    border: 3px solid #456879;
+    border-radius: 10px;
+    height: 22px;
+    width: 230px;
+}
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+}
+
+    .vertical-menu a {
+        background-color: #eee; /* Grey background color */
+        color: black; /* Black text color */
+        display: block; /* Make the links appear below each other */
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove underline from links */
+    }
+
+        .vertical-menu a:hover {
+            background-color: #ccc; /* Dark grey background on mouse-over */
+        }
+
+        .vertical-menu a.active {
+            background-color: #04AA6D; /* Add a green color to the "active/current" link */
+            color: white;
+        }
